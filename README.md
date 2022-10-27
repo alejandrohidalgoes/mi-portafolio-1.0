@@ -12,7 +12,7 @@ Para la elaboración de este porfolio, se ha utilizado HTML, CSS y, Javascript, 
 *[Portfolio web](https://alejandrohidalgo.es/)
 
 ## Ver ejemplo en vivo
-- [ENLACEGITHUBPAGES](https://alejandrohidalgoes.github.io/mi-portafolio-1.0/)
+- [Mi portafolio 1.0](https://alejandrohidalgoes.github.io/mi-portafolio-1.0/)
 
 ## Instalación
 Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz doble click en el .html
