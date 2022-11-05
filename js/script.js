@@ -1,6 +1,6 @@
 //Función que me aplica el estilo a la opciòn seleccionada y quita la previamente seleccionada
 function seleccionar(link) {
-    var opciones = document.querySelectorAll('links a');
+    var opciones = document.querySelectorAll('#links a');
     opciones[0].className = "";
     opciones[1].className = "";
     opciones[2].className = "";
@@ -16,7 +16,7 @@ function seleccionar(link) {
 
 //función que muestra el menu responsive
 function responsiveMenu() {
-    var x = document.getElementById("sections");
+    var x = document.getElementById("nav");
     if (x.className === "") {
         x.className = "responsive";
     } else {
@@ -36,8 +36,8 @@ function efectoHabilidades() {
         document.getElementById("js").classList.add("barra-progreso2");
         document.getElementById("bd").classList.add("barra-progreso3");
         document.getElementById("ps").classList.add("barra-progreso4");
-        document.getElementById("vr_p").classList.add("barra-progreso5");
-        document.getElementById("a_hc").classList.add("barra-progreso6");
+        document.getElementById("bt").classList.add("barra-progreso5");
+        document.getElementById("php").classList.add("barra-progreso6");
         document.getElementById("tmr").classList.add("barra-progreso7");
         document.getElementById("ac").classList.add("barra-progreso8");
         document.getElementById("t_ccvc").classList.add("barra-progreso9");

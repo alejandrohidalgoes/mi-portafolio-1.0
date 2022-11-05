@@ -12,38 +12,40 @@
 <body>
 
     <header id="inicio">
+            
         <div class="contenido-header">
-            <h1 id="logo"><span class="a">Alejandro</span><span class="h">Hidalgo</span><span class="a">.es</span></h1>
-            <nav class="sections">
+            <h1 id="logo"><span class="a">Alejandro</span><span class="h">Hidalgo</span></h1>
+            <nav id="nav" class="sections">
                 <ul id="links">
                     <li><a href="#inicio" class="selec" onclick="seleccionar(this)">INICIO</a></li>
                     <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
-                    <li><a href="#administrativo"onclick="seleccionar(this)">ADMINISTRATIVO</a></li>
                     <li><a href="#portfolio"onclick="seleccionar(this)">PORTFOLIO</a></li>
                     <li><a href="#contacto"onclick="seleccionar(this)">CONTACTO</a></li>
                 </ul>
             </nav>
             <!-- Iconos menú responsive-->
-            <div class="bars-nav" onclick="responsiveMenu()">
+            <div id="bars-nav" onclick="responsiveMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
             <!-- RRSS-->
-            <div class="redes">
+            <!-- <div class="redes">
                 <a href="#"><i class="fa-brands fa-youtube"></i></a>
                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
-            </div>
+            </div> -->
         </div>
     </header>
     <main>
         <!--PRESENTACIÓN-->
-        <section class="present">
-            <p class="bienvenida">Bienvenidos</p>
-            <h2>Soy un incipiente Frontend Developer, y por ahora en prácticas</h2>
-            <h2>Y mi nombre es</h2>
-            <h3>Alejandro Hidalgo</h3>
-            <p class="descripcion">Aquí les dejo un poco sobre mi perfil profesional como Front End, y como Administrativo especializado en el Sector del Seguro por si quieren darme una oportunidad.</p>
-            <a href="#portfolio">Ir a Portafolio</a>
+        <section id="present">
+            <div class="present">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy un incipiente Frontend Developer, y por ahora en prácticas</h2>
+                <h2>Y mi nombre es</h2>
+                <h3>Alejandro Hidalgo</h3>
+                <p class="descripcion">Aquí les dejo un poco sobre mi perfil profesional como Front End, y como Administrativo especializado en el Sector del Seguro por si quieren darme una oportunidad.</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
         </section>
 
         <!-- SOBRE MI  FRONT END-->
@@ -55,8 +57,8 @@
                 <p class="titulo-seccion">Sobre Mi Como Front Developer</p>
                 <h2>Hola, Soy <span>Alejandro Hidalgo</span> </h2>
                 <h3>Front Developer</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur reprehenderit voluptatibus blanditiis nulla adipisci iste fuga expedita, ea exercitationem dicta, similique rem, atque soluta recusandae ipsam autem. Sapiente, quo ducimus?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nam a beatae natus.</p>
+                <p>Tras media vida trabajando como administrativo en el sector del seguro, y ante la imposibilidad de que me hagan contrato estable, inicio un curso ocuapcional con el Certificado de Profesionalidad "Desarrollo de aplicaciones con tecnología Web".</p>
+                <p>Tras estos meses, en los que la formación ha sido muy condensada y casi sin tiempo para asimilarlo todo, he decidido centrarme en la parte de frontend, en la que me voy defendiendo aunque aún formándome para asimilar mejor lo aprendido e intentar cambiar de profesión aún la edad.</p>
                 <a href="#">Descargar CV</a>
             </div>
         </section>
@@ -103,94 +105,26 @@
                     <div class="" id="ps"></div>
                 </div>
             </div>
-        </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Bootstrap</p>
+                    <span class="porcentaje">50%</span>
+                </div>
 
-        <!--SOBRE MI  ADMINISTRATIVO-->
-        <section id="administrativo">
-            <div class="sobremi">
-                <p class="titulo-seccion">Sobre Mi Como Administrativo</p>
-                <h2>Hola, Soy <span>Alejandro Hidalgo</span> </h2>
-                <h3>Administrativo / Tramitador Siniestros y Recobros</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur reprehenderit voluptatibus blanditiis nulla adipisci iste fuga expedita, ea exercitationem dicta, similique rem, atque soluta recusandae ipsam autem. Sapiente, quo ducimus?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nam a beatae natus.</p>
-                <a href="#">Descargar CV</a>
+                <div class="barra">
+                    <div class="" id="bt"></div>
+                </div>
             </div>
-            <div class="contenedor-foto2">
-                <img class="fotoperfil" src="img/foto.jpg" alt="">
-            </div>            
-        </section>
-
-        <!-- HABILIDADES ADM-->
-        <div class="contenedor-skills" id="skills">
-            <h3>HABILIDADES SINIESTROS </h3>
-            <div>
-                <h3>Multirriesgos</h3>
-                <div class="skill">
-                    <div class="info">
-                        <p> <span class="lista"> </span>Verificación Riesgos / Producción</p>
-                        <span class="porcentaje">60%</span>
-                    </div>
-
-                    <div class="barra">
-                        <div class="" id="vr_p"></div>
-                    </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>PHP</p>
+                    <span class="porcentaje">35%</span>
                 </div>
 
-                <div class="skill">
-                    <div class="info">
-                        <p> <span class="lista"> </span>Asistencia Hogar/Comunidades</p>
-                        <span class="porcentaje">75%</span>
-                    </div>
-
-                    <div class="barra">
-                        <div class="" id="a_hc"></div>
-                    </div>
+                <div class="barra">
+                    <div class="" id="php"></div>
                 </div>
-                <div class="skill">
-                    <div class="info">
-                    <p> <span class="lista"> </span>Tramitación Multirriesgos</p>
-                        <span class="porcentaje">80%</span>
-                    </div>
-                    <div class="barra">
-                        <div class="" id="tmr"></div>
-                    </div>
             </div>
-            <div>
-                <h3>Autos y Empresas</h3>
-
-                    
-                </div>
-                <div class="skill">
-                    <div class="info">
-                        <p> <span class="lista"> </span>Aistencia en Carretera</p>
-                        <span class="porcentaje">70%</span>
-                    </div>
-
-                    <div class="barra">
-                        <div class="" id="ac"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="info">
-                        <p> <span class="lista"> </span>Tramitador Cicos / Carta Verde / Convencional</p>
-                        <span class="porcentaje">70%</span>
-                    </div>
-
-                    <div class="barra">
-                        <div class="" id="t_ccvc"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="info">
-                        <p> <span class="lista"> </span>Recobros Empresas</p>
-                        <span class="porcentaje">80%</span>
-                    </div>
-
-                    <div class="barra">
-                        <div class="" id="re"></div>
-                    </div>
-                </div>
-            </div>    
         </div>
 
         <!-- SECCION PORTAFOLIO -->
@@ -201,15 +135,15 @@
                     <div class="overlay"></div>
                     <img src="img/proyecto1.jpg" alt="">
                     <div class="info">
-                        <h4>Descripcion Proyecto</h4>
-                        <p>Diseño Web</p>
+                        <h4>Estructura según diseño Figma</h4>
+                        <p>Página sencilla sobre un concurso ficticio parte de un ejercicio de Frontend</p>
                     </div>
                 </div>
                 <div class="proyecto">
                     <div class="overlay"></div>
                     <img src="img/proyecto2.jpg" alt="">
                     <div class="info">
-                        <h4>Descripcion Proyecto</h4>
+                        <h4>Cuestionario </h4>
                         <p>Diseño Web</p>
                     </div>
                 </div>
